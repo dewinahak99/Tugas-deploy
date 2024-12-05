@@ -11,6 +11,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 # Judul aplikasi
 st.title("Aplikasi Klasifikasi dengan SVM dan Random Forest")
 
+
 # Upload dataset
 uploaded_file = st.file_uploader("Upload dataset (CSV)", type=["csv"])
 
